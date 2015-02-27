@@ -1,0 +1,1 @@
+$(".menu a").click(function(){$(".trigger").toggle(),$(".menu").toggleClass("round"),$(".close").toggle(),$(".drop-down").toggleClass("down")}),$(document).ready(function(){$("#slider").owlCarousel({items:1,autoPlay:!0,pagination:!1,itemsDesktop:[1199,1],itemsDesktopSmall:[980,1],itemsTablet:[768,1],lazyLoad:!0,lazyFollow:!0,lazyEffect:"fade"})});
